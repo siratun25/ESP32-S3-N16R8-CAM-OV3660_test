@@ -8,6 +8,7 @@ This minimal test approach helped me clearly understand:
 - Whether the board is actually ready for advanced applications
 That’s why I’m sharing this—for anyone starting out with this device.
 
+There’s no need to panic about adding the correct pin numbers or board model in the code. Most confusion happens at this stage, and any mismatch usually leads to unexpected or incorrect results.
 
 So, before moving into complex use cases (like AI, TinyML, Edge Impulse pipelines or streaming), I wrote a minimal and clean camera test code to verify:
 - Camera initialization status
