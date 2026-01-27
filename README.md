@@ -1,5 +1,4 @@
-# ESP32-S3-N16R8-CAM(OV3660) - Camera Initialization & Capture Test 
-# Using OV3660 Camera | No WiFi | No WebServer | Beginner-Friendly
+# ESP32-S3-N16R8-CAM(OV3660) - Camera Initialization & Capture Test using OV3660 Camera | No WiFi | No WebServer | Beginner-Friendly
 
 While working with the ESP32-S3 CAM (N16R8) module using the OV3660 camera, I noticed that very limited beginner-friendly resources are available—especially for basic Initialization & Capture testing without WiFi, Internet, or CameraWebServer examples, and I realized that jumping directly into complex use cases (like AI, TinyML, Edge Impulse pipelines or streaming) can be confusing when something goes wrong.
 
