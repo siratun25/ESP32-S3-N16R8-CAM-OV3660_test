@@ -193,7 +193,7 @@ Follow these steps to properly test the ESP32-S3 CAM (N16R8) camera setup:
       void loop() {
         // nothing
       }
-
+```
           
   
 ## Conclusion
