@@ -88,11 +88,11 @@ Follow these steps to properly test the ESP32-S3 CAM (N16R8) camera setup:
     #include <Arduino.h>
     #include "esp_camera.h"
     
-    // ============= CAMERA MODEL ==============
+    //============= CAMERA MODEL ==============
     #define CAMERA_MODEL_CUSTOM
-    // =========================================
     
-    // ====== ESP32-S3 N16R8 OV3660 Camera Pins ======
+    
+    // ESP32-S3 N16R8 OV3660 Camera Pins 
     #define PWDN_GPIO_NUM     -1
     #define RESET_GPIO_NUM    -1
     #define XCLK_GPIO_NUM     15
@@ -111,8 +111,7 @@ Follow these steps to properly test the ESP32-S3 CAM (N16R8) camera setup:
     #define VSYNC_GPIO_NUM    6
     #define HREF_GPIO_NUM     7
     #define PCLK_GPIO_NUM     13
-    // ===========================================
-
+    
 
     void setup() {
       Serial.begin(115200);
